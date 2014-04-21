@@ -1,1 +1,17 @@
-dddd
+Steps in the code:
+
+Check to see if reshape2 is installed and loads it
+
+Imports the data as long as the features.txt and the test/train folders are in the working directory
+
+combines the data into a tidy format
+
+Add variable names
+
+Creates pared down dataset with only means and STDs
+
+Creates a unique code for the subject/activity pair
+
+Creates a new dataset where each record is the mean of each of the subject activity pair
+
+Finally, labels the activity codes
